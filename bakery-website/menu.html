@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Menu | Sowmya Lakshmi Bakery</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <header>
+    <div class="container header-inner">
+      <a href="index.html" class="logo">
+        <div class="logo-mark">SLB</div>
+        <div class="logo-text">
+          <span class="brand">Sowmya Lakshmi</span>
+          <span class="tagline">Artisan Bakery</span>
+        </div>
+      </a>
+      <nav>
+        <button class="nav-toggle" aria-label="Toggle menu">
+          <span></span><span></span><span></span>
+        </button>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="menu.html" class="active">Menu</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="custom.html">Custom Orders</a></li>
+          <li><a href="reviews.html">Reviews</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="page-hero">
+    <div>
+      <h1>Our Menu</h1>
+      <p>Handcrafted daily with the finest ingredients</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="menu-categories">
+        <button class="cat-btn active" data-category="all">All</button>
+        <button class="cat-btn" data-category="cakes">Cakes</button>
+        <button class="cat-btn" data-category="pastries">Pastries</button>
+        <button class="cat-btn" data-category="breads">Breads</button>
+        <button class="cat-btn" data-category="cookies">Cookies & More</button>
+      </div>
+
+      <!-- Cakes -->
+      <div class="menu-item" data-category="cakes">
+        <img src="images/cake1.jpg" alt="Chocolate Truffle Cake">
+        <div class="menu-item-info">
+          <h3>Chocolate Truffle Cake</h3>
+          <p>Layers of moist chocolate sponge filled with rich truffle ganache and finished with a glossy chocolate glaze.</p>
+        </div>
+        <span class="price">₹650</span>
+      </div>
+
+      <div class="menu-item" data-category="cakes">
+        <img src="images/cake2.jpg" alt="Red Velvet Cake">
+        <div class="menu-item-info">
+          <h3>Classic Red Velvet</h3>
+          <p>Soft red velvet layers with cream cheese frosting — elegant and unforgettable.</p>
+        </div>
+        <span class="price">₹700</span>
+      </div>
+
+      <div class="menu-item" data-category="cakes">
+        <img src="images/cupcake1.jpg" alt="Vanilla Cupcakes">
+        <div class="menu-item-info">
+          <h3>Vanilla Bean Cupcakes (Box of 6)</h3>
+          <p>Light vanilla sponge topped with silky buttercream and a delicate sprinkle of edible gold.</p>
+        </div>
+        <span class="price">₹480</span>
+      </div>
+
+      <!-- Pastries -->
+      <div class="menu-item" data-category="pastries">
+        <img src="images/pastry1.jpg" alt="Butter Croissants">
+        <div class="menu-item-info">
+          <h3>Butter Croissants</h3>
+          <p>Classic French-style croissants with 48 layers of pure butter. Crisp outside, soft inside.</p>
+        </div>
+        <span class="price">₹80</span>
+      </div>
+
+      <div class="menu-item" data-category="pastries">
+        <img src="images/gallery1.jpg" alt="Fruit Danish">
+        <div class="menu-item-info">
+          <h3>Fruit Danish Pastry</h3>
+          <p>Flaky pastry filled with seasonal fruit compote and finished with a light glaze.</p>
+        </div>
+        <span class="price">₹95</span>
+      </div>
+
+      <!-- Breads -->
+      <div class="menu-item" data-category="breads">
+        <img src="images/bread1.jpg" alt="Artisan Sourdough">
+        <div class="menu-item-info">
+          <h3>Artisan Sourdough Loaf</h3>
+          <p>Naturally leavened sourdough with a crackling crust and open, chewy crumb.</p>
+        </div>
+        <span class="price">₹180</span>
+      </div>
+
+      <div class="menu-item" data-category="breads">
+        <img src="images/honey.jpg" alt="Multigrain Bread">
+        <div class="menu-item-info">
+          <h3>Honey Multigrain Bread</h3>
+          <p>Wholesome loaf packed with seeds and a touch of natural honey for subtle sweetness.</p>
+        </div>
+        <span class="price">₹160</span>
+      </div>
+
+      <!-- Cookies -->
+      <div class="menu-item" data-category="cookies">
+        <img src="images/cookies1.jpg" alt="Chocolate Chip Cookies">
+        <div class="menu-item-info">
+          <h3>Chocolate Chip Cookies (Pack of 8)</h3>
+          <p>Chewy, golden cookies loaded with premium dark chocolate chips.</p>
+        </div>
+        <span class="price">₹220</span>
+      </div>
+
+      <div class="menu-item" data-category="cookies">
+        <img src="images/gallery3.jpg" alt="Assorted Cookies">
+        <div class="menu-item-info">
+          <h3>Assorted Cookie Box</h3>
+          <p>A delightful mix of shortbread, chocolate and butter cookies — perfect for gifting.</p>
+        </div>
+        <span class="price">₹350</span>
+      </div>
+
+      <div class="text-center mt-2">
+        <p style="color: var(--brown-light); margin-bottom: 1rem;">Looking for something unique? We love custom requests!</p>
+        <a href="custom.html" class="btn">Request Custom Order</a>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div class="logo-mark">SLB</div>
+          <p>Sowmya Lakshmi Bakery — where every loaf, cake and pastry is baked with care and tradition.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Explore</h4>
+          <ul>
+            <li><a href="custom.html">Custom Orders</a></li>
+            <li><a href="reviews.html">Reviews</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Visit Us</h4>
+          <ul>
+            <li>12, Rose Garden Lane</li>
+            <li>Hyderabad, Telangana</li>
+            <li>+91 98765 43210</li>
+            <li>hello@sowmyalakshmibakery.com</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        &copy; 2026 Sowmya Lakshmi Bakery. All rights reserved. | Made with ♥ for sweet moments
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>

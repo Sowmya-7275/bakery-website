@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Custom Orders | Sowmya Lakshmi Bakery</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <header>
+    <div class="container header-inner">
+      <a href="index.html" class="logo">
+        <div class="logo-mark">SLB</div>
+        <div class="logo-text">
+          <span class="brand">Sowmya Lakshmi</span>
+          <span class="tagline">Artisan Bakery</span>
+        </div>
+      </a>
+      <nav>
+        <button class="nav-toggle" aria-label="Toggle menu">
+          <span></span><span></span><span></span>
+        </button>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="menu.html">Menu</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="custom.html" class="active">Custom Orders</a></li>
+          <li><a href="reviews.html">Reviews</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="page-hero">
+    <div>
+      <h1>Custom Orders</h1>
+      <p>Your vision, our craftsmanship</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="custom-hero">
+        <div>
+          <img src="images/abouts.jpg" alt="Custom celebration cake" style="border-radius: 16px; box-shadow: 0 12px 40px var(--shadow);">
+          <p style="margin-top: 1.5rem; color: var(--brown-light);">From intimate birthday cakes to grand wedding centrepieces, we design and bake creations that tell your story. Share your ideas, flavour preferences and theme — we take care of the rest.</p>
+          <ul style="margin-top: 1.2rem; color: var(--brown-light); padding-left: 1.2rem;">
+            <li>Minimum 48 hours notice for most custom cakes</li>
+            <li>Wedding & large event orders: please contact us 1–2 weeks ahead</li>
+            <li>Allergen-friendly options available on request</li>
+            <li>Delivery available within city limits</li>
+          </ul>
+        </div>
+        <div class="form-card">
+          <h2 style="margin-bottom: 1.5rem; text-align: center;">Request a Quote</h2>
+          <form id="customForm">
+            <div class="form-group">
+              <label for="name">Full Name *</label>
+              <input type="text" id="name" name="name" required placeholder="Your name">
+            </div>
+            <div class="form-group">
+              <label for="phone">Phone Number *</label>
+              <input type="tel" id="phone" name="phone" required placeholder="+91 98765 43210">
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" placeholder="you@example.com">
+            </div>
+            <div class="form-group">
+              <label for="occasion">Occasion *</label>
+              <select id="occasion" name="occasion" required>
+                <option value="">Select occasion</option>
+                <option value="birthday">Birthday</option>
+                <option value="wedding">Wedding</option>
+                <option value="anniversary">Anniversary</option>
+                <option value="corporate">Corporate Event</option>
+                <option value="other">Other</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="date">Preferred Date *</label>
+              <input type="date" id="date" name="date" required>
+            </div>
+            <div class="form-group">
+              <label for="details">Design & Flavour Details *</label>
+              <textarea id="details" name="details" required placeholder="Tell us about size, flavours, colours, theme, message on cake..."></textarea>
+            </div>
+            <button type="submit" class="btn" style="width: 100%;">Submit Request</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section bg-soft">
+    <div class="container">
+      <div class="section-title">
+        <p class="subtitle">Popular Choices</p>
+        <h2>Favourite Custom Flavours</h2>
+        <div class="divider"></div>
+      </div>
+      <div class="cards-grid">
+        <div class="card">
+          <div class="card-img">
+            <img src="images/rasp.jpg" alt="Chocolate">
+          </div>
+          <div class="card-body">
+            <h3>Dark Chocolate & Raspberry</h3>
+            <p>Intense chocolate paired with tangy raspberry filling.</p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-img">
+            <img src="images/butter.jpg" alt="Vanilla">
+          </div>
+          <div class="card-body">
+            <h3>Vanilla Bean & Buttercream</h3>
+            <p>Classic, elegant and perfect for any celebration.</p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-img">
+            <img src="images/gallery3.jpg" alt="Fruit">
+          </div>
+          <div class="card-body">
+            <h3>Fresh Fruit & Cream</h3>
+            <p>Light sponge layered with seasonal fruits and cream.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div class="logo-mark">SLB</div>
+          <p>Sowmya Lakshmi Bakery — where every loaf, cake and pastry is baked with care and tradition.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Explore</h4>
+          <ul>
+            <li><a href="custom.html">Custom Orders</a></li>
+            <li><a href="reviews.html">Reviews</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Visit Us</h4>
+          <ul>
+            <li>12, Rose Garden Lane</li>
+            <li>Hyderabad, Telangana</li>
+            <li>+91 98765 43210</li>
+            <li>hello@sowmyalakshmibakery.com</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        &copy; 2026 Sowmya Lakshmi Bakery. All rights reserved. | Made with ♥ for sweet moments
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
